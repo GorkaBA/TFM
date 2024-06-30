@@ -1,0 +1,78 @@
+demanda/demanda-tiempo-real: 502
+demanda/demanda-tiempo-real: 502
+demanda/demanda-tiempo-real: 502
+demanda/demanda-tiempo-real: 502
+demanda/demanda-tiempo-real: 502
+demanda/demanda-tiempo-real: 502
+demanda/demanda-tiempo-real: 502
+demanda/demanda-tiempo-real: 502
+demanda/demanda-tiempo-real: 502
+demanda/demanda-tiempo-real: 502
+demanda/demanda-tiempo-real: 502
+demanda/demanda-tiempo-real: 502
+generacion/estructura-renovables geo_id 8744: 502
+generacion/potencia-instalada geo_id 8744: 502
+generacion/potencia-instalada geo_id 8745: 502
+generacion/potencia-instalada geo_id 8743: 502
+generacion/potencia-instalada geo_id 8742: 502
+intercambios/lineas-francia: Estructura de datos inesperada en item
+intercambios/lineas-francia: Estructura de datos inesperada en item
+intercambios/lineas-francia: Estructura de datos inesperada en item
+intercambios/lineas-francia: Estructura de datos inesperada en item
+intercambios/lineas-francia: Estructura de datos inesperada en item
+intercambios/lineas-francia: Estructura de datos inesperada en item
+intercambios/lineas-francia: Estructura de datos inesperada en item
+intercambios/lineas-portugal: Estructura de datos inesperada en item
+intercambios/lineas-portugal: Estructura de datos inesperada en item
+intercambios/lineas-portugal: Estructura de datos inesperada en item
+intercambios/lineas-portugal: Estructura de datos inesperada en item
+intercambios/lineas-portugal: Estructura de datos inesperada en item
+intercambios/lineas-portugal: Estructura de datos inesperada en item
+intercambios/lineas-portugal: Estructura de datos inesperada en item
+intercambios/lineas-portugal: Estructura de datos inesperada en item
+intercambios/lineas-portugal: Estructura de datos inesperada en item
+intercambios/lineas-portugal: Estructura de datos inesperada en item
+intercambios/lineas-portugal: Estructura de datos inesperada en item
+intercambios/lineas-portugal: Estructura de datos inesperada en item
+intercambios/lineas-marruecos: Estructura de datos inesperada en item
+intercambios/lineas-andorra: 500
+intercambios/todas-fronteras-fisicos: Estructura de datos inesperada en item
+intercambios/todas-fronteras-fisicos: Estructura de datos inesperada en item
+intercambios/todas-fronteras-fisicos: Estructura de datos inesperada en item
+intercambios/todas-fronteras-fisicos: Estructura de datos inesperada en item
+intercambios/todas-fronteras-programados: Estructura de datos inesperada en item
+intercambios/todas-fronteras-programados: Estructura de datos inesperada en item
+intercambios/todas-fronteras-programados: Estructura de datos inesperada en item
+intercambios/todas-fronteras-programados: Estructura de datos inesperada en item
+mercados/componentes-precio-energia-cierre-desglose: Estructura de datos inesperada en item
+mercados/componentes-precio-energia-cierre-desglose: Estructura de datos inesperada en item
+mercados/componentes-precio-energia-cierre-desglose: Estructura de datos inesperada en item
+mercados/componentes-precio-energia-cierre-desglose: Estructura de datos inesperada en item
+mercados/componentes-precio-energia-cierre-desglose: Estructura de datos inesperada en item
+mercados/precios-restricciones: Estructura de datos inesperada en item
+mercados/precios-restricciones: Estructura de datos inesperada en item
+mercados/reserva-potencia-adicional: 502
+mercados/precios-mercados-tiempo-real: 502
+mercados/precios-mercados-tiempo-real: 502
+mercados/precios-mercados-tiempo-real: 502
+mercados/precios-mercados-tiempo-real: 502
+mercados/precios-mercados-tiempo-real: 502
+mercados/precios-mercados-tiempo-real: 502
+mercados/precios-mercados-tiempo-real: 502
+mercados/precios-mercados-tiempo-real: 502
+mercados/precios-mercados-tiempo-real: 502
+mercados/precios-mercados-tiempo-real: 502
+mercados/precios-mercados-tiempo-real: 502
+mercados/precios-mercados-tiempo-real: 502
+mercados/energia-precios-ponderados-gestion-desvios-before: Estructura de datos inesperada en item
+mercados/energia-precios-ponderados-gestion-desvios-before: Estructura de datos inesperada en item
+mercados/energia-precios-ponderados-gestion-desvios-before: Estructura de datos inesperada en item
+mercados/energia-precios-ponderados-gestion-desvios-before: Estructura de datos inesperada en item
+mercados/energia-precios-ponderados-gestion-desvios: Estructura de datos inesperada en item
+mercados/energia-precios-ponderados-gestion-desvios: Estructura de datos inesperada en item
+mercados/energia-precios-ponderados-gestion-desvios: Estructura de datos inesperada en item
+mercados/energia-precios-ponderados-gestion-desvios: Estructura de datos inesperada en item
+mercados/energia-precios-ponderados-gestion-desvios: Estructura de datos inesperada en item
+mercados/energia-precios-ponderados-gestion-desvios: Estructura de datos inesperada en item
+mercados/energia-precios-ponderados-gestion-desvios-after: Estructura de datos inesperada en item
+mercados/energia-precios-ponderados-gestion-desvios-after: Estructura de datos inesperada en item

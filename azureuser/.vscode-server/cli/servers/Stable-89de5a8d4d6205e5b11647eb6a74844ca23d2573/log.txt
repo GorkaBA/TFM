@@ -1,0 +1,23 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-6889f9fe-3303-4a68-8932-a49af1cc424a
+Extension host agent listening on /tmp/code-6889f9fe-3303-4a68-8932-a49af1cc424a
+
+[15:59:03] 
+
+
+
+
+[15:59:03] Extension host agent started.
+[15:59:04] [<unknown>][2d6ff9f4][ManagementConnection] New connection established.
+[15:59:04] [<unknown>][7e521005][ExtensionHostConnection] New connection established.
+[15:59:04] [<unknown>][7e521005][ExtensionHostConnection] <5640> Launched Extension Host Process.
+[16:00:56] [<unknown>][f07f5472][ExtensionHostConnection] New connection established.
+[16:00:56] [<unknown>][ab17621a][ManagementConnection] New connection established.
+[16:00:56] [<unknown>][f07f5472][ExtensionHostConnection] <5928> Launched Extension Host Process.
+[16:01:16] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)

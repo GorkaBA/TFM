@@ -1,0 +1,43 @@
+2024-06-26 21:07:00.568 [info] Extension host with pid 4288 started
+2024-06-26 21:07:00.572 [error] Error: EEXIST: file already exists, open '/home/azureuser/.vscode-server/data/User/workspaceStorage/177487496fcbaee4b86704bf3ad4a37c/vscode.lock'
+2024-06-26 21:07:00.586 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/177487496fcbaee4b86704bf3ad4a37c/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-06-26 21:07:00.635 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/177487496fcbaee4b86704bf3ad4a37c/vscode.lock': The lock does not look stale, elapsed: 228 ms, giving up.
+2024-06-26 21:07:00.749 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-06-26 21:07:00.753 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-26 21:07:00.759 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-06-26 21:07:01.808 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-26 21:07:01.819 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/177487496fcbaee4b86704bf3ad4a37c-1/vscode.lock': Lock acquired.
+2024-06-26 21:07:02.218 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-26 21:07:02.219 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-26 21:07:02.722 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-06-26 21:07:02.723 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-06-26 21:07:03.274 [info] Eager extensions activated
+2024-06-26 21:07:03.274 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-26 21:07:03.275 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-26 21:17:05.638 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-06-26 21:17:05.638 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/177487496fcbaee4b86704bf3ad4a37c-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-06-26 21:17:05.672 [error] Canceled: Canceled
+	at Object.S [as $6] (/home/azureuser/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:10:967)
+	at /home/azureuser/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:2390
+	at Array.forEach (<anonymous>)
+	at E.dispose (/home/azureuser/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:2328)
+	at u.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:161:8103)
+	at f.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:165:1513)
+	at t (/home/azureuser/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:178:10459)
+	at M.a (/home/azureuser/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:178:7151)
+	at M.h (/home/azureuser/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:99:21182)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2024-06-26 21:17:05.672 [error] Canceled: Canceled
+	at Object.S [as $6] (/home/azureuser/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:10:967)
+	at /home/azureuser/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:2390
+	at Array.forEach (<anonymous>)
+	at E.dispose (/home/azureuser/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:152:2328)
+	at u.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:161:8103)
+	at f.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:165:1513)
+	at t (/home/azureuser/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:178:10459)
+	at M.a (/home/azureuser/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:178:7151)
+	at M.h (/home/azureuser/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/workbench/api/node/extensionHostProcess.js:99:21182)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2024-06-26 21:17:05.675 [info] Extension host with pid 4288 exiting with code 0

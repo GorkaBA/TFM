@@ -1,0 +1,21 @@
+2024-06-26 21:06:58.094 [info] 
+
+
+
+
+2024-06-26 21:06:58.115 [info] Extension host agent started.
+2024-06-26 21:06:58.460 [info] [<unknown>][283d6ff1][ManagementConnection] New connection established.
+2024-06-26 21:06:58.463 [info] [<unknown>][1c80368a][ExtensionHostConnection] New connection established.
+2024-06-26 21:06:58.554 [info] [<unknown>][1c80368a][ExtensionHostConnection] <4288> Launched Extension Host Process.
+2024-06-26 21:07:23.645 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/azureuser/.vscode-server/data/logs/20240623T104053' failed: No such file or directory (EUNKNOWN) (path: /home/azureuser)
+2024-06-26 21:07:23.645 [error] [File Watcher (universal)] restarting watcher from error in watch request (retrying request): inotify_add_watch on '/home/azureuser/.vscode-server/data/logs/20240623T104053' failed: No such file or directory ({"path":"/home/azureuser","excludes":["**/.git/objects/**","**/.git/subtree-cache/**","**/node_modules/*/**","**/.hg/store/**","/home/azureuser/.vscode-server/extensions/**"],"recursive":true})
+2024-06-26 21:07:42.390 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/azureuser)
+2024-06-26 21:11:58.116 [info] New EH opened, aborting shutdown
+2024-06-26 21:12:05.421 [info] [<unknown>][518068e6][ExtensionHostConnection] New connection established.
+2024-06-26 21:12:05.424 [info] [<unknown>][518068e6][ExtensionHostConnection] <4647> Launched Extension Host Process.
+2024-06-26 21:12:05.426 [info] [<unknown>][58fb8178][ManagementConnection] New connection established.
+2024-06-26 21:12:32.153 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+2024-06-26 21:17:05.704 [info] [<unknown>][1c80368a][ExtensionHostConnection] <4288> Extension Host Process exited with code: 0, signal: null.
+2024-06-26 21:17:05.706 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/azureuser/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/server/node/server.main.js:191:6373)
+    at process.emit (node:events:518:28)

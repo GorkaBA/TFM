@@ -1,0 +1,20 @@
+2024-06-29 17:37:25.110 [info] 
+
+
+
+
+2024-06-29 17:37:25.129 [info] Extension host agent started.
+2024-06-29 17:37:25.473 [info] [<unknown>][295aa33c][ManagementConnection] New connection established.
+2024-06-29 17:37:25.474 [info] [<unknown>][aebf7bd2][ExtensionHostConnection] New connection established.
+2024-06-29 17:37:25.588 [info] [<unknown>][aebf7bd2][ExtensionHostConnection] <2236> Launched Extension Host Process.
+2024-06-29 17:42:25.130 [info] New EH opened, aborting shutdown
+2024-06-29 17:43:49.655 [info] [<unknown>][266ec41e][ExtensionHostConnection] New connection established.
+2024-06-29 17:43:49.656 [info] [<unknown>][9557ba9c][ManagementConnection] New connection established.
+2024-06-29 17:43:49.658 [info] [<unknown>][266ec41e][ExtensionHostConnection] <2410> Launched Extension Host Process.
+2024-06-29 17:48:49.852 [info] [<unknown>][aebf7bd2][ExtensionHostConnection] <2236> Extension Host Process exited with code: 0, signal: null.
+2024-06-29 17:48:49.854 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/azureuser/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/server/node/server.main.js:191:6373)
+    at process.emit (node:events:518:28)
+2024-06-30 03:20:55.381 [info] [<unknown>][266ec41e][ExtensionHostConnection] <2410> Extension Host Process exited with code: 0, signal: null.
+2024-06-30 03:20:55.382 [info] Last EH closed, waiting before shutting down
+2024-06-30 03:25:55.383 [info] Last EH closed, shutting down

@@ -1,0 +1,152 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'azure-functions-core-tools@4',
+1 verbose cli   '--unsafe-perm',
+1 verbose cli   'true' ]
+2 info using npm@6.14.4
+3 info using node@v10.19.0
+4 verbose npm-session d755ea8da06cad78
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/azure-functions-core-tools 88ms (from cache)
+8 silly pacote range manifest for azure-functions-core-tools@4 fetched in 106ms
+9 timing stage:loadCurrentTree Completed in 123ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 3ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule azure-functions-core-tools@4.0.1 checking installable status
+17 http fetch GET 200 https://registry.npmjs.org/rimraf 19ms (from cache)
+18 silly pacote version manifest for rimraf@4.4.1 fetched in 25ms
+19 silly resolveWithNewModule rimraf@4.4.1 checking installable status
+20 silly removeObsoleteDep removing rimraf@3.0.2 from the tree as its been replaced by a newer version or is no longer required
+21 http fetch GET 200 https://registry.npmjs.org/glob 5ms (from cache)
+22 silly pacote range manifest for glob@^9.2.0 fetched in 10ms
+23 silly resolveWithNewModule glob@9.3.5 checking installable status
+24 http fetch GET 200 https://registry.npmjs.org/path-scurry 12ms (from cache)
+25 silly pacote range manifest for path-scurry@^1.6.1 fetched in 14ms
+26 silly resolveWithNewModule path-scurry@1.11.1 checking installable status
+27 http fetch GET 200 https://registry.npmjs.org/minipass 27ms (from cache)
+28 http fetch GET 200 https://registry.npmjs.org/minimatch 29ms (from cache)
+29 silly pacote range manifest for minipass@^4.2.4 fetched in 36ms
+30 silly resolveWithNewModule minipass@4.2.8 checking installable status
+31 silly pacote range manifest for minimatch@^8.0.2 fetched in 37ms
+32 silly resolveWithNewModule minimatch@8.0.4 checking installable status
+33 http fetch GET 200 https://registry.npmjs.org/brace-expansion 3ms (from cache)
+34 silly pacote range manifest for brace-expansion@^2.0.1 fetched in 5ms
+35 silly resolveWithNewModule brace-expansion@2.0.1 checking installable status
+36 silly pacote range manifest for minipass@^5.0.0 || ^6.0.2 || ^7.0.0 fetched in 5ms
+37 silly resolveWithNewModule minipass@7.1.2 checking installable status
+38 http fetch GET 200 https://registry.npmjs.org/lru-cache 8ms (from cache)
+39 silly pacote range manifest for lru-cache@^10.2.0 fetched in 11ms
+40 silly resolveWithNewModule lru-cache@10.2.2 checking installable status
+41 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 164ms
+42 timing stage:loadIdealTree Completed in 193ms
+43 silly currentTree lib
+44 silly idealTree lib
+44 silly idealTree └─┬ azure-functions-core-tools@4.0.1
+44 silly idealTree   ├── @types/color-name@1.1.1
+44 silly idealTree   ├── @types/node@18.15.13
+44 silly idealTree   ├── @types/yauzl@2.10.0
+44 silly idealTree   ├── agent-base@6.0.2
+44 silly idealTree   ├── ansi-styles@4.2.0
+44 silly idealTree   ├── balanced-match@1.0.0
+44 silly idealTree   ├── brace-expansion@1.1.11
+44 silly idealTree   ├── buffer-crc32@0.2.13
+44 silly idealTree   ├── chalk@3.0.0
+44 silly idealTree   ├── color-convert@2.0.1
+44 silly idealTree   ├── color-name@1.1.4
+44 silly idealTree   ├── concat-map@0.0.1
+44 silly idealTree   ├── debug@4.1.1
+44 silly idealTree   ├── end-of-stream@1.4.4
+44 silly idealTree   ├── extract-zip@2.0.1
+44 silly idealTree   ├── fd-slicer@1.1.0
+44 silly idealTree   ├── fs.realpath@1.0.0
+44 silly idealTree   ├── get-stream@5.2.0
+44 silly idealTree   ├── glob@7.1.6
+44 silly idealTree   ├── has-flag@4.0.0
+44 silly idealTree   ├── https-proxy-agent@5.0.0
+44 silly idealTree   ├── inflight@1.0.6
+44 silly idealTree   ├── inherits@2.0.4
+44 silly idealTree   ├── lru-cache@10.2.2
+44 silly idealTree   ├── minimatch@3.1.2
+44 silly idealTree   ├── minipass@4.2.8
+44 silly idealTree   ├── ms@2.1.2
+44 silly idealTree   ├── once@1.4.0
+44 silly idealTree   ├── path-is-absolute@1.0.1
+44 silly idealTree   ├─┬ path-scurry@1.11.1
+44 silly idealTree   │ └── minipass@7.1.2
+44 silly idealTree   ├── pend@1.2.0
+44 silly idealTree   ├── progress@2.0.3
+44 silly idealTree   ├── pump@3.0.0
+44 silly idealTree   ├─┬ rimraf@4.4.1
+44 silly idealTree   │ ├── brace-expansion@2.0.1
+44 silly idealTree   │ ├── glob@9.3.5
+44 silly idealTree   │ └── minimatch@8.0.4
+44 silly idealTree   ├── supports-color@7.1.0
+44 silly idealTree   ├── wrappy@1.0.2
+44 silly idealTree   └── yauzl@2.10.0
+45 silly install generateActionsToTake
+46 warn checkPermissions Missing write access to /usr/local/lib
+47 timing stage:rollbackFailedOptional Completed in 0ms
+48 timing stage:runTopLevelLifecycles Completed in 328ms
+49 warn notsup Unsupported engine for rimraf@4.4.1: wanted: {"node":">=14"} (current: {"node":"10.19.0","npm":"6.14.4"})
+50 warn notsup Not compatible with your version of node/npm: rimraf@4.4.1
+51 verbose notsup Not compatible with your version of node/npm: rimraf@4.4.1
+51 verbose notsup Required: {"node":">=14"}
+51 verbose notsup Actual:   {"npm":"6.14.4","node":"10.19.0"}
+52 warn notsup Unsupported engine for glob@9.3.5: wanted: {"node":">=16 || 14 >=14.17"} (current: {"node":"10.19.0","npm":"6.14.4"})
+53 warn notsup Not compatible with your version of node/npm: glob@9.3.5
+54 verbose notsup Not compatible with your version of node/npm: glob@9.3.5
+54 verbose notsup Required: {"node":">=16 || 14 >=14.17"}
+54 verbose notsup Actual:   {"npm":"6.14.4","node":"10.19.0"}
+55 warn notsup Unsupported engine for path-scurry@1.11.1: wanted: {"node":">=16 || 14 >=14.18"} (current: {"node":"10.19.0","npm":"6.14.4"})
+56 warn notsup Not compatible with your version of node/npm: path-scurry@1.11.1
+57 verbose notsup Not compatible with your version of node/npm: path-scurry@1.11.1
+57 verbose notsup Required: {"node":">=16 || 14 >=14.18"}
+57 verbose notsup Actual:   {"npm":"6.14.4","node":"10.19.0"}
+58 warn notsup Unsupported engine for minimatch@8.0.4: wanted: {"node":">=16 || 14 >=14.17"} (current: {"node":"10.19.0","npm":"6.14.4"})
+59 warn notsup Not compatible with your version of node/npm: minimatch@8.0.4
+60 verbose notsup Not compatible with your version of node/npm: minimatch@8.0.4
+60 verbose notsup Required: {"node":">=16 || 14 >=14.17"}
+60 verbose notsup Actual:   {"npm":"6.14.4","node":"10.19.0"}
+61 warn notsup Unsupported engine for minipass@7.1.2: wanted: {"node":">=16 || 14 >=14.17"} (current: {"node":"10.19.0","npm":"6.14.4"})
+62 warn notsup Not compatible with your version of node/npm: minipass@7.1.2
+63 verbose notsup Not compatible with your version of node/npm: minipass@7.1.2
+63 verbose notsup Required: {"node":">=16 || 14 >=14.17"}
+63 verbose notsup Actual:   {"npm":"6.14.4","node":"10.19.0"}
+64 warn notsup Unsupported engine for lru-cache@10.2.2: wanted: {"node":"14 || >=16.14"} (current: {"node":"10.19.0","npm":"6.14.4"})
+65 warn notsup Not compatible with your version of node/npm: lru-cache@10.2.2
+66 verbose notsup Not compatible with your version of node/npm: lru-cache@10.2.2
+66 verbose notsup Required: {"node":"14 || >=16.14"}
+66 verbose notsup Actual:   {"npm":"6.14.4","node":"10.19.0"}
+67 verbose stack Error: EACCES: permission denied, access '/usr/local/lib'
+68 verbose cwd /home/azureuser
+69 verbose Linux 5.15.0-1064-azure
+70 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "azure-functions-core-tools@4" "--unsafe-perm" "true"
+71 verbose node v10.19.0
+72 verbose npm  v6.14.4
+73 error code EACCES
+74 error syscall access
+75 error path /usr/local/lib
+76 error errno -13
+77 error Error: EACCES: permission denied, access '/usr/local/lib'
+77 error  { [Error: EACCES: permission denied, access '/usr/local/lib']
+77 error   stack:
+77 error    'Error: EACCES: permission denied, access \'/usr/local/lib\'',
+77 error   errno: -13,
+77 error   code: 'EACCES',
+77 error   syscall: 'access',
+77 error   path: '/usr/local/lib' }
+78 error The operation was rejected by your operating system.
+78 error It is likely you do not have the permissions to access this file as the current user
+78 error
+78 error If you believe this might be a permissions issue, please double-check the
+78 error permissions of the file and its containing directories, or try running
+78 error the command again as root/Administrator.
+79 verbose exit [ -13, true ]

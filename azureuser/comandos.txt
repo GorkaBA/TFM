@@ -1,0 +1,3 @@
+borrar volumenes:
+sudo rm -rf /home/azureuser/volumes/influxdb/storage/
+sudo rm -rf /home/azureuser/volumes/influxdb/etc/

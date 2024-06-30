@@ -1,0 +1,230 @@
+Categoria: demanda
+Elemento: evolucion
+Descripcion: Evolución de la demanda
+
+
+Categoria: demanda
+Elemento: perdidas-transporte
+Descripcion: Pérdidas de transporte
+
+
+Categoria: demanda
+Elemento: demanda-tiempo-real
+Descripcion: Demanda peninsular en tiempo real
+
+
+Categoria: generacion
+Elemento: estructura-generacion
+Descripcion: Generación por tecnología
+
+
+Categoria: generacion
+Elemento: evolucion-renovable-no-renovable
+Descripcion: Evolución de la generación renovable/no renovable
+
+
+Categoria: generacion
+Elemento: estructura-renovables
+Descripcion: Generación por tecnología renovable
+
+
+Categoria: generacion
+Elemento: estructura-generacion-emisiones-asociadas
+Descripcion: Generación por tecnología con/Sin emisiones de CO2 eq.
+
+
+Categoria: generacion
+Elemento: evolucion-estructura-generacion-emisiones-asociadas
+Descripcion: Generación por tecnología con/Sin emisiones de CO2 eq.
+
+
+Categoria: generacion
+Elemento: no-renovables-detalle-emisiones-CO2
+Descripcion: Emisiones y factor de emisión de CO2 en generación no renovables
+
+
+Categoria: generacion
+Elemento: maxima-renovable
+Descripcion: Máxima generación renovable
+
+
+Categoria: generacion
+Elemento: potencia-instalada
+Descripcion: Estructura de potencia instalada
+
+
+Categoria: generacion
+Elemento: maxima-renovable-historico
+Descripcion: Máxima generación renovable - Máximo histórico
+
+
+Categoria: generacion
+Elemento: maxima-sin-emisiones-historico
+Descripcion: Máxima generación sin emisiones - Máximo histórico
+
+
+Categoria: intercambios
+Elemento: francia-frontera
+Descripcion: Intercambios por frontera con Francia
+
+
+Categoria: intercambios
+Elemento: portugal-frontera
+Descripcion: Intercambios por frontera con Portugal
+
+
+Categoria: intercambios
+Elemento: marruecos-frontera
+Descripcion: Intercambios por frontera con Marruecos
+
+
+Categoria: intercambios
+Elemento: andorra-frontera
+Descripcion: Intercambios por frontera con Andorra
+
+
+Categoria: intercambios
+Elemento: lineas-francia
+Descripcion: Intercambios físicos por línea
+
+
+Categoria: intercambios
+Elemento: lineas-portugal
+Descripcion: Intercambios físicos por línea
+
+
+Categoria: intercambios
+Elemento: lineas-marruecos
+Descripcion: Intercambios físicos por línea
+
+
+Categoria: intercambios
+Elemento: lineas-andorra
+Descripcion: None
+
+
+Categoria: intercambios
+Elemento: francia-frontera-programado
+Descripcion: Intercambios programados por frontera con Francia
+
+
+Categoria: intercambios
+Elemento: portugal-frontera-programado
+Descripcion: Intercambios programados por frontera con Portugal
+
+
+Categoria: intercambios
+Elemento: marruecos-frontera-programado
+Descripcion: Intercambios programados por frontera con Marruecos
+
+
+Categoria: intercambios
+Elemento: andorra-frontera-programado
+Descripcion: Intercambios programados por frontera con Andorra
+
+
+Categoria: intercambios
+Elemento: enlace-baleares
+Descripcion: Enlace Península-Baleares
+
+
+Categoria: intercambios
+Elemento: frontera-fisicos
+Descripcion: Intercambios físicos por frontera
+
+
+Categoria: intercambios
+Elemento: todas-fronteras-fisicos
+Descripcion: Intercambios programados por frontera
+
+
+Categoria: intercambios
+Elemento: frontera-programados
+Descripcion: Intercambios programados por frontera
+
+
+Categoria: intercambios
+Elemento: todas-fronteras-programados
+Descripcion: Intercambios programados por frontera
+
+
+Categoria: mercados
+Elemento: componentes-precio-energia-cierre-desglose
+Descripcion: Componentes del precio final y energía del cierre
+
+
+Categoria: mercados
+Elemento: componentes-precio
+Descripcion: Componentes del precio final mensual
+
+
+Categoria: mercados
+Elemento: energia-gestionada-servicios-ajuste
+Descripcion: Energía gestionada en los servicios de ajuste
+
+
+Categoria: mercados
+Elemento: energia-restricciones
+Descripcion: Energía por restricciones al PDBF y en tiempo real
+
+
+Categoria: mercados
+Elemento: precios-restricciones
+Descripcion: Precios medios ponderados por restricciones al PDBF y tiempo real
+
+
+Categoria: mercados
+Elemento: reserva-potencia-adicional
+Descripcion: None
+
+
+Categoria: mercados
+Elemento: banda-regulacion-secundaria
+Descripcion: Banda de regulación secundaria
+
+
+Categoria: mercados
+Elemento: energia-precios-regulacion-secundaria
+Descripcion: Energía y precios de regulación secundaria
+
+
+Categoria: mercados
+Elemento: energia-precios-regulacion-terciaria
+Descripcion: Energía y precios de regulación terciaria
+
+
+Categoria: mercados
+Elemento: energia-precios-gestion-desvios
+Descripcion: None
+
+
+Categoria: mercados
+Elemento: coste-servicios-ajuste
+Descripcion: Coste de servicios de ajuste
+
+
+Categoria: mercados
+Elemento: volumen-energia-servicios-ajuste-variacion
+Descripcion: Volumen de energía de servicios de ajuste - Variación
+
+
+Categoria: mercados
+Elemento: precios-mercados-tiempo-real
+Descripcion: Precios mercado peninsular en tiempo real
+
+
+Categoria: mercados
+Elemento: energia-precios-ponderados-gestion-desvios-before
+Descripcion: Precios gestión de desvíos y RR (€/MWh)
+
+
+Categoria: mercados
+Elemento: energia-precios-ponderados-gestion-desvios
+Descripcion: Precios gestión de desvíos y RR (€/MWh)
+
+
+Categoria: mercados
+Elemento: energia-precios-ponderados-gestion-desvios-after
+Descripcion: Precios gestión de desvíos y RR (€/MWh)
+
+

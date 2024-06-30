@@ -1,0 +1,13 @@
+2024-06-27 14:27:01.158 [info] 
+
+
+
+
+2024-06-27 14:27:01.178 [info] Extension host agent started.
+2024-06-27 14:27:01.519 [info] [<unknown>][84313d82][ExtensionHostConnection] New connection established.
+2024-06-27 14:27:01.520 [info] [<unknown>][52879728][ManagementConnection] New connection established.
+2024-06-27 14:27:01.597 [info] [<unknown>][84313d82][ExtensionHostConnection] <2704> Launched Extension Host Process.
+2024-06-27 14:27:26.385 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/azureuser/.vscode-server/data/logs/20240623T160516/exthost1/ms-python.python' failed: No such file or directory (EUNKNOWN) (path: /home)
+2024-06-27 14:27:26.385 [error] [File Watcher (universal)] restarting watcher from error in watch request (retrying request): inotify_add_watch on '/home/azureuser/.vscode-server/data/logs/20240623T160516/exthost1/ms-python.python' failed: No such file or directory ({"path":"/home","excludes":["**/.git/objects/**","**/.git/subtree-cache/**","**/node_modules/*/**","**/.hg/store/**","/home/azureuser/.vscode-server/extensions/**"],"recursive":true})
+2024-06-27 14:27:45.190 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+2024-06-27 14:32:01.179 [info] New EH opened, aborting shutdown

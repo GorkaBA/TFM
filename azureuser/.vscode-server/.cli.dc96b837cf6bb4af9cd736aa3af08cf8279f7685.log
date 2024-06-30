@@ -1,0 +1,7 @@
+Listening on 127.0.0.1:39955
+[2024-06-08 21:46:48] info Disposed of connection to running server.
+looking for token 9e4da4e2-2c7f-468e-a3ff-1503ff96d3bc, got Some("9e4da4e2-2c7f-468e-a3ff-1503ff96d3bc")
+[2024-06-08 21:46:52] info Checking /home/azureuser/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/log.txt and /home/azureuser/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/pid.txt for a running server...
+[2024-06-08 21:46:52] info Starting server...
+[2024-06-08 21:46:53] info Server started
+[2024-06-08 22:16:20] info Disposed of connection to running server.

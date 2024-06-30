@@ -1,0 +1,19 @@
+2024-06-30 12:08:02.269 [info] Extension host with pid 56154 started
+2024-06-30 12:08:02.271 [error] Error: EEXIST: file already exists, open '/home/azureuser/.vscode-server/data/User/workspaceStorage/f94eb63dd18e63b00ca0afaa1ec4ee2c/vscode.lock'
+2024-06-30 12:08:02.286 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/f94eb63dd18e63b00ca0afaa1ec4ee2c/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-06-30 12:08:02.302 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/f94eb63dd18e63b00ca0afaa1ec4ee2c/vscode.lock': The pid 2704 appears to be gone.
+2024-06-30 12:08:02.302 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/f94eb63dd18e63b00ca0afaa1ec4ee2c/vscode.lock': Deleting a stale lock.
+2024-06-30 12:08:02.328 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/f94eb63dd18e63b00ca0afaa1ec4ee2c/vscode.lock': Lock acquired.
+2024-06-30 12:08:02.445 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-30 12:08:02.447 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-06-30 12:08:03.723 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-30 12:08:03.904 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-30 12:08:03.904 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-30 12:08:04.790 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-06-30 12:08:04.791 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-06-30 12:08:05.942 [info] Eager extensions activated
+2024-06-30 12:08:05.952 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-30 12:08:05.952 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-30 12:09:46.136 [info] Extension host terminating: parent process 55149 does not exist anymore: kill ESRCH (code: ESRCH) (errno: -3)
+2024-06-30 12:09:46.232 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/f94eb63dd18e63b00ca0afaa1ec4ee2c/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-06-30 12:09:46.775 [info] Extension host with pid 56154 exiting with code 0

@@ -1,0 +1,56 @@
+version: '3'
+services:
+  influxdb:
+    image: influxdb:latest
+    ports:
+      - '8086:8086'
+    volumes:
+      - /home/azureuser/volumes/influxdb/storage/:/var/lib/influxdb2
+      - /home/azureuser/volumes/influxdb/etc/:/etc/influxdb2
+    environment:
+      - INFLUXDB_DB=db0
+      - INFLUXDB_ADMIN_USER=${INFLUXDB_USERNAME}
+      - INFLUXDB_ADMIN_PASSWORD=${INFLUXDB_PASSWORD}
+    restart: always
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - '3000:3000'
+    user: "472:472"
+    volumes:
+      - /home/azureuser/volumes/grafana/lib/:/var/lib/grafana
+      - /home/azureuser/volumes/grafana/log/:/var/log/grafana
+      - /home/azureuser/configurations/ssl_tls_certs/grafana-selfsigned.crt:/home/azureuser/configurations/ssl_tls_certs/grafana-selfsigned.crt:ro
+      - /home/azureuser/configurations/ssl_tls_certs/grafana-selfsigned.key:/home/azureuser/configurations/ssl_tls_certs/grafana-selfsigned.key:ro
+    depends_on:
+      - influxdb
+    environment:
+      - GF_SECURITY_ADMIN_USER=${GRAFANA_USERNAME}
+      - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_PASSWORD}
+      - GF_SERVER_PROTOCOL=https
+      - GF_SERVER_CERT_FILE=/home/azureuser/configurations/ssl_tls_certs/grafana-selfsigned.crt
+      - GF_SERVER_CERT_KEY=/home/azureuser/configurations/ssl_tls_certs/grafana-selfsigned.key
+    restart: always
+  telegraf:
+    image: telegraf:latest
+    volumes:
+      - /home/azureuser/configurations/telegraf.conf:/etc/telegraf/telegraf.conf
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - INFLUX_TOKEN=MH7gG-ayy-Oum10exnUj9eXLnMRXVSna2aSmRcDHTXt2E4iFZLE1Ozms9McDA5KHFYhpZw823A5Onbma2UNbbg==
+    depends_on:
+      - influxdb
+      - nanomq
+    restart: always
+  nanomq:
+    image: emqx/nanomq:0.21.2-slim
+    container_name: nanomq
+    volumes:
+      - ./volumes/mq/nanomq.conf:/configurations/nanomq.conf
+      - ./volumes/mq/nanomq_pwd.conf:/configurations/nanomq_pwd.conf
+      - ./volumes/mq/nanomq_acl.conf:/configurations/nanomq_acl.conf
+      - ./volumes/mq/tmp/:/tmp/
+    ports:
+      - "1883:1883"
+      - "8883:8883"
+    restart: always

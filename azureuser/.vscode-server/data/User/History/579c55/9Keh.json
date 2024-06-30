@@ -1,0 +1,12 @@
+{
+    "pddlParser.executableOrService": "c:\\Users\\Iborra\\AppData\\Roaming\\Code\\User\\globalStorage\\jan-dolejsi.pddl\\val\\Val-20210401.1-win64\\bin\\Parser.exe",
+    "pddl.validatorPath": "c:\\Users\\Iborra\\AppData\\Roaming\\Code\\User\\globalStorage\\jan-dolejsi.pddl\\val\\Val-20210401.1-win64\\bin\\Validate.exe",
+    "pddl.valueSeqPath": "c:\\Users\\Iborra\\AppData\\Roaming\\Code\\User\\globalStorage\\jan-dolejsi.pddl\\val\\Val-20210401.1-win64\\bin\\ValueSeq.exe",
+    "pddl.valStepPath": "c:\\Users\\Iborra\\AppData\\Roaming\\Code\\User\\globalStorage\\jan-dolejsi.pddl\\val\\Val-20210401.1-win64\\bin\\ValStep.exe",
+    "pddl.selectedPlanner": "Planning as a service (paas-uom.org:5001)",
+    "remote.SSH.remotePlatform": {
+        "20.55.64.204": "linux",
+        "172.206.238.30": "linux",
+        "172.206.233.7": "linux"
+    }
+}

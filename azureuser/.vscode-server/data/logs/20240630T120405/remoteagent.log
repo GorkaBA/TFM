@@ -1,0 +1,18 @@
+2024-06-30 12:04:05.060 [info] 
+
+
+
+
+2024-06-30 12:04:05.071 [info] Extension host agent started.
+2024-06-30 12:04:05.327 [info] [<unknown>][cdec4d9c][ManagementConnection] New connection established.
+2024-06-30 12:04:05.329 [info] [<unknown>][fb178706][ExtensionHostConnection] New connection established.
+2024-06-30 12:04:05.402 [info] [<unknown>][fb178706][ExtensionHostConnection] <55175> Launched Extension Host Process.
+2024-06-30 12:04:27.680 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/azureuser/.vscode-server/data/logs/20240625T151012/exthost1/vscode.git' failed: No such file or directory (EUNKNOWN) (path: /home/azureuser)
+2024-06-30 12:04:27.681 [error] [File Watcher (universal)] restarting watcher from error in watch request (retrying request): inotify_add_watch on '/home/azureuser/.vscode-server/data/logs/20240625T151012/exthost1/vscode.git' failed: No such file or directory ({"path":"/home/azureuser","excludes":["**/.git/objects/**","**/.git/subtree-cache/**","**/node_modules/*/**","**/.hg/store/**","/home/azureuser/.vscode-server/extensions/**"],"recursive":true})
+2024-06-30 12:04:44.626 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/azureuser)
+2024-06-30 12:07:59.590 [info] [<unknown>][7b2ec21e][ManagementConnection] New connection established.
+2024-06-30 12:07:59.591 [info] [<unknown>][f771e4a6][ExtensionHostConnection] New connection established.
+2024-06-30 12:07:59.605 [info] [<unknown>][f771e4a6][ExtensionHostConnection] <56154> Launched Extension Host Process.
+2024-06-30 12:08:40.655 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+2024-06-30 12:09:02.477 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-30 12:09:05.088 [info] New EH opened, aborting shutdown

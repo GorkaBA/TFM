@@ -1,0 +1,17 @@
+2024-06-26 13:28:02.294 [info] Extension host with pid 2266 started
+2024-06-26 13:28:02.294 [error] Error: EEXIST: file already exists, open '/home/azureuser/.vscode-server/data/User/workspaceStorage/177487496fcbaee4b86704bf3ad4a37c/vscode.lock'
+2024-06-26 13:28:02.303 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/177487496fcbaee4b86704bf3ad4a37c/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-06-26 13:28:02.320 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/177487496fcbaee4b86704bf3ad4a37c/vscode.lock': The pid 2131 appears to be gone.
+2024-06-26 13:28:02.320 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/177487496fcbaee4b86704bf3ad4a37c/vscode.lock': Deleting a stale lock.
+2024-06-26 13:28:02.340 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/177487496fcbaee4b86704bf3ad4a37c/vscode.lock': Lock acquired.
+2024-06-26 13:28:02.661 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-06-26 13:28:02.662 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-26 13:28:02.845 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-26 13:28:02.955 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-26 13:28:02.955 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-26 13:28:03.408 [info] Eager extensions activated
+2024-06-26 13:28:03.408 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-26 13:28:03.409 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-26 14:32:20.756 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-06-26 14:32:21.526 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-06-26 14:32:21.526 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
